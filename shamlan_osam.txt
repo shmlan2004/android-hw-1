@@ -1,0 +1,36 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        
+        String s = "مبروك يا شملان ستحصل على رخصة";
+        String b = "للأسف شملان لا تستطيع الحصول على رخصة قيادة";
+        int age = 22;
+
+        name(s,b,age);
+        
+     } 
+        public static void name(String s , String b , int age) {
+              if(age>18){
+                 
+                 for (int x = 1 ; x < 4 ; x++ ){
+          System.out.println(s);
+         }
+        }
+        else{
+           
+            for (int i = 1 ; i < 4 ; i++ ){
+          System.out.println(b);
+      } 
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       }
+}
